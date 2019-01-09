@@ -1,0 +1,51 @@
+@import '../../variables.scss';
+
+
+
+content {
+  display: flex;
+  background-color: $light_gray;
+  flex-grow: 1;
+  width: 100%;
+}
+.block-container {
+  justify-content: space-around;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 30%;
+  align-self:center;
+}
+
+p span {
+  display: block;
+}
+
+.regular-font {
+  font-family: 'Arial';
+  text-align: center;
+}
+
+.block {
+  align-self: center;
+  max-height: 260px;
+}
+
+.bigfont-block {
+  font-family: 'Arial Black';
+  color: $indigo;
+  font-size: 2em;
+  text-align: center;
+}
+
+.internship-title {
+  margin: auto;
+  font-size: 1.2em;
+  color: $indigo;
+}
+
+.internship-date {
+  margin: auto;
+  font-size: 1em;
+  color: $dark_blue;
+}

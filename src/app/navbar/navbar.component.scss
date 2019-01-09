@@ -1,0 +1,12 @@
+@import '../../variables.scss';
+
+mat-toolbar {
+  background-color: $indigo;
+}
+
+.important-text {
+  color: $white;
+  text-align: center;
+  width: 100%;
+  font-size: 2em;
+}
