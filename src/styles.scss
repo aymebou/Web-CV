@@ -2,6 +2,8 @@
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @import '~@angular/material/theming';
+@import "~bootstrap/dist/css/bootstrap.css";
+
 
 @font-face {
     font-family: 'Arial';
@@ -79,10 +81,15 @@ mat-sidenav-container {
   background: $light_gray;
 }
 
-app-home {
+app-home, app-overview {
   order: 0;
   height: 100%;
   align-self: auto;
   display: flex;
   flex-direction: column;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 100%;
 }

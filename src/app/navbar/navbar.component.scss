@@ -1,7 +1,11 @@
 @import '../../variables.scss';
 
-mat-toolbar {
+.standard-color {
   background-color: $dark_grey;
+}
+
+.overview-color {
+  background-color: $dark_blue;
 }
 
 .important-text {
@@ -12,7 +16,6 @@ mat-toolbar {
 }
 
 mat-sidenav {
-  background-color: $gray;
   a {
     color: $white;
   }

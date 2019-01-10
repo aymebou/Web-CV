@@ -1,0 +1,51 @@
+@import '../../variables.scss';
+
+content {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.colored-block {
+  display: flex;
+  flex: 1 1 50%;
+  padding: 0px;
+  padding-top: 15px;
+}
+.fa-address-card::before {
+  text-align: center;
+}
+
+.cards-container {
+  display: block;
+}
+
+.keyword-card-container {
+  display: block;
+  flex-shrink: 1;
+}
+
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $indigo;
+  color: $white;
+}
+
+mat-card {
+  background-color: #5dc6d2;
+  color: $white;
+  margin:10px;
+}
+
+.row {
+  width: 100%;
+  margin:0px;
+}
+
+.right {
+  background-color: $light_gray;
+}

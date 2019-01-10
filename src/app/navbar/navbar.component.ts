@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  topbarTitle: string;
+  topbarClass: string;
+
+
+
+
+  constructor() {
+    this.topbarTitle= "Aymeric Bouzigues";
+    this.topbarClass = 'Regular'
+  }
 
   ngOnInit() {
+  }
+
+  adaptTopBar = function(colorClass: string, title: string) {
+    this.topbarTitle = title;
+    this.topbarClass = colorClass;
   }
 
 }
