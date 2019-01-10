@@ -1,12 +1,23 @@
 @import '../../variables.scss';
 
 mat-toolbar {
-  background-color: $indigo;
+  background-color: $dark_grey;
 }
 
 .important-text {
   color: $white;
   text-align: center;
   width: 100%;
-  font-size: 2em;
+  font-size: 3.5vh;
+}
+
+mat-sidenav {
+  background-color: $gray;
+  a {
+    color: $white;
+  }
+}
+
+mat-icon {
+  color: $white;
 }

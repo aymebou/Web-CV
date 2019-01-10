@@ -4,7 +4,8 @@
 
 content {
   display: flex;
-  background-color: $light_gray;
+  background-image: url('../../assets/background.svg');
+  background-size: cover;
   flex-grow: 1;
   width: 100%;
 }
@@ -13,7 +14,8 @@ content {
   align-content: center;
   display: flex;
   flex-wrap: wrap;
-  flex: 1 1 30%;
+  flex-grow: 1;
+  height: 100%;
   align-self:center;
 }
 
@@ -28,24 +30,24 @@ p span {
 
 .block {
   align-self: center;
-  max-height: 260px;
+  max-height: 380px;
 }
 
 .bigfont-block {
   font-family: 'Arial Black';
   color: $indigo;
-  font-size: 2em;
+  font-size: 4.5vh;
   text-align: center;
 }
 
 .internship-title {
   margin: auto;
-  font-size: 1.2em;
+  font-size: 3.5vh;
   color: $indigo;
 }
 
 .internship-date {
   margin: auto;
-  font-size: 1em;
+  font-size: 3.2vh;
   color: $dark_blue;
 }
