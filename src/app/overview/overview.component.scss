@@ -16,6 +16,10 @@ content {
   text-align: center;
 }
 
+.left .mat-card-avatar {
+  font-size: 3vh;
+}
+
 .cards-container {
   display: block;
 }
@@ -25,8 +29,46 @@ content {
   flex-shrink: 1;
 }
 
+.column-light {
+  background-color: $orange;
+}
+.column-dark {
+  background-color: $orange_dark;
+}
+
+.cursus-card{
+  background-color: $white;
+  color: $indigo;
+  margin:10px;
+}
+
+.block {
+
+}
+
+.topblock {
+  color: $white;
+  i {
+    text-align: center;
+    display: block;
+    font-size: 10vh;
+  }
+  max-width: 200px;
+}
+
+.column {
+  min-width:100px;
+  flex: 1 1 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $white;
+}
 
 .left {
+  min-width: 300px;
+  flex: 1 1 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +77,7 @@ content {
   color: $white;
 }
 
-mat-card {
+.info-card {
   background-color: #5dc6d2;
   color: $white;
   margin:10px;
@@ -46,6 +88,16 @@ mat-card {
   margin:0px;
 }
 
+mat-card {
+  font-family: 'Arial'
+}
+
 .right {
-  background-color: $light_gray;
+  padding-top: 15px;
+  flex-wrap: wrap;
+  min-width: 300px;
+  flex: 1 1 50%;
+  background-color: $orange;
+  display: flex;
+  flex-direction: column;
 }
