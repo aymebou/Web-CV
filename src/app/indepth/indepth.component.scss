@@ -1,20 +1,76 @@
 @import '../../variables.scss';
 
-mat-card {
+
+.bloc-title {
+  min-width: 150px;
+}
+
+.professional-card {
   background-color: $dark_blue;
   color: $white;
 }
 
-.eki-logo {
-  width: 100%;
+.interest-card {
+  background-color: $indigo;
+  color: $white;
+}
+.project-card {
+  background-color: $orange;
+  color: $white;
+}
+
+.bloc-title {
+  margin-left: 10px;
+  color: $dark_blue;
+  flex-shrink: 1;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  @media screen and (min-width: 750px) {
+    flex-wrap: nowrap;
+  }
+  @media screen and (max-width: 749px) {
+    flex-wrap: wrap;
+  }
+
+}
+
+
+
+.logo {
+  max-width: 100%;
   margin: auto;
   max-width: 400px;
 }
-
+.mat-card-header {
+  margin-bottom: 15px;
+  display:flex;
+  justify-content: center;
+}
 .row {
-  margin: 5px 1px;
+  background-color: $light_gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  margin: 0px;
+  @media screen and (min-width: 750px) {
+    flex-wrap: nowrap;
+  }
+  @media screen and (max-width: 749px) {
+    flex-wrap: wrap;
+  }
 }
 
 .mat-card-actions {
   text-align: center;
+}
+
+
+mat-card {
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 5px 5px;
 }
