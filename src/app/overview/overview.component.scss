@@ -6,6 +6,14 @@ content {
   width: 100%;
 }
 
+.picture-card {
+  margin: 20px 50px;
+  display: flex;
+  background-image: url('../../assets/PhotoMS.jpg');
+  background-size: cover;
+  min-height:200px;
+}
+
 .colored-block {
   display: flex;
   flex: 1 1 50%;
