@@ -2,14 +2,14 @@
 
 This is a project I made looking for an internship in Full-Stack web development, when i though that old pdf resumes are out of date, and we should have a more fun way of showing your experiences / interests.
 
-Demo available [here](aymericbouzigues.fr)
+Demo available [here](http://aymericbouzigues.fr)
 
 
 ## Running app locally
 
 Firs run `npm install` to install dependencies (if you don't have npm, please follow [this tutorial](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm#using-a-node-installer-to-install-node-js-and-npm) then you should install the latest version of angular [here](https://angular.io/guide/quickstart)).
 
-Then, run `ng serve` for a dev server. Navigate to `http://localhost:4000/`. The app will automatically reload if you change any of the source files.s
+Then, run `ng serve` for a dev server. Navigate to `http://localhost:4000/`. The app will automatically reload if you change any of the source files.
 
 ## Adding a new page to the route
 
