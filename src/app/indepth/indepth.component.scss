@@ -70,5 +70,6 @@ mat-card {
   justify-content: space-around;
   @media screen and (max-width: 749px) {
     width: 100%;
+    flex: 1 1 100%;
   }
 }
